@@ -1,6 +1,8 @@
 # MicroExpressionRecognition
 使用casme2数据集训练的微表情识别MicroExpressionRecognition，支持摄像头、图片视频检测。
 
+![image](https://github.com/homxxx/MicroExpressionRecognition/blob/master/sdg2y-jxz4o.gif)
+
 ### 所需环境
 tensorflow-gpu==1.13.1   
 keras==2.1.5   
