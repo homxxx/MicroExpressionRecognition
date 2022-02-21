@@ -15,8 +15,11 @@ casme2数据集训练权重稍后放出
 1. 按照训练步骤训练。  
 2. 在classification.py文件里面，在如下部分修改model_path、classes_path、backbone和alpha使其对应训练好的文件；**model_path对应logs文件夹下面的权值文件，classes_path是model_path对应分的类，backbone对应使用的主干特征提取网络，alpha是当使用mobilenet的alpha值**。  
 recognition_camera.py 调用系统摄像头完成实时识别人脸微表情
+
 recognition_video.py 视频检测
+
 recognition_img.py 图片检测
+
 
 ### 训练步骤
 1. datasets文件夹下存放的图片分为两部分，train里面是训练图片，test里面是测试图片。  
