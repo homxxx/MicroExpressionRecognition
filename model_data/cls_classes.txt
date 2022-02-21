@@ -1,0 +1,7 @@
+disgust
+fear
+happiness
+others
+repression
+sadness
+surprise
