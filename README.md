@@ -25,6 +25,26 @@ casme2数据集训练权重稍后放出
 3. 在准备好数据集后，需要在根目录运行txt_annotation.py生成训练所需的cls_train.txt，运行前需要修改其中的classes，将其修改成自己需要分的类。   
 4. 之后修改model_data文件夹下的cls_classes.txt，使其也对应自己需要分的类。  
 5. 在train.py里面调整自己要选择的网络和权重后，就可以开始训练了！  
+6. 数据参考格式
+```
+|-datasets
+    |-train
+        |-cat
+            |-123.jpg
+            |-234.jpg
+        |-dog
+            |-345.jpg
+            |-456.jpg
+        |-...
+    |-test
+        |-cat
+            |-567.jpg
+            |-678.jpg
+        |-dog
+            |-789.jpg
+            |-890.jpg
+        |-...
+```
 
 
 ### 评估步骤
