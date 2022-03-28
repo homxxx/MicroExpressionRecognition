@@ -1,5 +1,6 @@
 # MicroExpressionRecognition
 使用casme2数据集训练的微表情识别MicroExpressionRecognition，支持摄像头、图片视频检测。
+同时支持其他表情情绪识别数据集
 
 ![image](https://github.com/homxxx/MicroExpressionRecognition/blob/master/sdg2y-jxz4o.gif)
 
