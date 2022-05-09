@@ -25,23 +25,28 @@ casme2数据集训练权重稍后放出
 2. 在训练之前需要首先准备好数据集，在train或者test文件里里面创建不同的文件夹，每个文件夹的名称为对应的类别名称，文件夹下面的图片为这个类的图片。
 3. 在准备好数据集后，需要在根目录运行txt_annotation.py生成训练所需的cls_train.txt，运行前需要修改其中的classes，将其修改成自己需要分的类。   
 4. 之后修改model_data文件夹下的cls_classes.txt，使其也对应自己需要分的类。  
-5. 在train.py里面调整自己要选择的网络和权重后，就可以开始训练了！  
-6. 数据参考格式
+5. 在train.py里面调整自己要选择的网络和预权重后，就可以开始训练了！  
+6. 预训练权重：
+```
+VGG-16：model_data/vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5
+mobilenet：model_data/mobilenet_2_5_224_tf_no_top.h5
+```
+8. 数据参考格式
 ```
 |-datasets
     |-train
-        |-cat
+        |-disgust
             |-123.jpg
             |-234.jpg
-        |-dog
+        |-fear
             |-345.jpg
             |-456.jpg
         |-...
     |-test
-        |-cat
+        |-disgust
             |-567.jpg
             |-678.jpg
-        |-dog
+        |-fear
             |-789.jpg
             |-890.jpg
         |-...
