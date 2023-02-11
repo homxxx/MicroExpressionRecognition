@@ -8,8 +8,13 @@
 tensorflow-gpu==1.13.1   
 keras==2.1.5   
 
-### 训练权重
-casme2数据集训练权重稍后放出  
+### 模型权重
+casme2数据集训练的模型权重：
+
+链接：https://pan.baidu.com/s/1nGRJRNc3EzSiVfrBnSPMkg 
+提取码：klv1
+
+也可自己申请数据集训练模型。
 
 ### 预测步骤
 
